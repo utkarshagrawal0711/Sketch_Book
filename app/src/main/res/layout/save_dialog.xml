@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/AppBarTitleColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:background="@color/AppBarColor"
+            app:cardCornerRadius="35dp">
+
+            <ImageView
+                android:id="@+id/saveImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/toolsimage"
+                android:background="@color/AppBarColor"
+                android:padding="10dp"
+                tools:ignore="HardcodedText"
+                android:src="@drawable/save">
+            </ImageView>
+
+        </androidx.cardview.widget.CardView>
+
+        <EditText
+            android:id="@+id/saveAs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="@color/AppBarColor"
+            android:backgroundTint="@color/AppBarColor"
+            android:textCursorDrawable="@color/AppBarColor"
+            android:hint="@string/save_as"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:importantForAutofill="no"
+            tools:targetApi="lollipop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textSize="20sp"
+            android:textColor="@color/AppBarTitleColor"
+            android:backgroundTint="@color/AppBarColor"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            tools:targetApi="lollipop"
+            style="?android:attr/buttonBarButtonStyle">
+        </Button>
+
+        <Button
+            android:id="@+id/ok_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/AppBarColor"
+            android:textColor="@color/AppBarTitleColor"
+            style="?android:attr/buttonBarButtonStyle"
+            tools:targetApi="lollipop">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

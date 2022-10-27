@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sketch Book</string>
+    <string name="floating_action_button">Add Floating Action Button</string>
+    <string name="back">back</string>
+    <string name="share">share</string>
+    <string name="save">save</string>
+    <string name="download">download</string>
+    <string name="toolicon">toolIcon</string>
+    <string name="toolsimage">toolsImage</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_as">Save As</string>
+    <string name="default_image">Default Image</string>
+    <string name="nothing_to_show">Nothing to show</string>
+    <string name="paintingimage">paintingImage</string>
+    <string name="painting_name">Painting Name</string>
+    <string name="bitmap">Bitmap</string>
+    <string name="shareText">Share</string>
+    <string name="downloadText">Download</string>
+</resources>

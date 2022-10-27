@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingRight="2.5dp"
+    android:paddingLeft="2.5dp"
+    android:paddingStart="2.5dp"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:paddingEnd="2.5dp">
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:id="@+id/toolIcon"
+        android:contentDescription="@string/toolicon">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/AppBarTitleColor"
+        android:id="@+id/toolName">
+    </TextView>
+
+</LinearLayout>
